@@ -1,0 +1,89 @@
+.clear{
+	clear: both;
+}
+footer {
+	position: relative;
+	bottom: 0;
+	background-color: #ffffff;
+	border-top: 1px solid rgba(0,0,0,0.1);
+	margin-top: 20px;
+	width: 100%;
+	height: 150px;
+}
+#fo_top{
+	height: 50px;
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+	margin-top: 3px;
+}
+#fo_top p{
+	float: left;
+	font-size: 18px;
+	font-weight: bolder;
+	width: 8em;
+	text-align: left;
+	height: 50px;
+	line-height: 50px;
+}
+#fo_top p:first-child{
+	margin-left: 3em;
+}
+
+#fo_top a{
+	color: #000000;
+}
+#fo_top a:hover{
+	color: rgb(255, 215, 0);
+}
+#fa_top_logo{
+	float: right;
+	margin-right: 100px;
+}
+#fa_top_logo img{
+	width: 50px;
+}
+#fo_center{
+	width: 100%;
+}
+#fo_center div{
+	margin-top: 5px;
+	width: 25%;
+	height: 65px;
+	line-height: 65px;
+	float: left;
+	text-align: center;	
+}
+#fo_center span{
+	font-size: 16px;
+	font-weight: bolder;
+}
+#fo_center i{
+	font-size: 35px;
+	margin-right: 0.5em;
+}
+#fo_bottom{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background-color: #ccc;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+
+#fo_top_bac{
+	background-color: white;
+	border-top: 1px solid rgba(0,0,0,0.1);
+	position: absolute;
+	margin-top: -151px;
+	z-index: -999;
+	width: 100%;
+	height: 120px;
+}
+#fo_bot_bac{
+	width: 100%;
+	height: 30px;
+	background-color: #ccc;
+	position: absolute;
+	margin-top: -30px;
+	z-index: -999;
+}

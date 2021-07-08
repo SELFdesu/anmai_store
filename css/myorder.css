@@ -1,0 +1,150 @@
+.head_title {
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(185, 185, 185, 0.5);
+}
+
+.head_title1 {
+    text-align: center;
+}
+
+.head_title1,
+.content_row_order {
+    width: 40%;
+    float: left;
+}
+
+.head_title2,
+.head_title3,
+.head_title4,
+.head_title5,
+.head_title6,
+.content_row_price,
+.content_row_num,
+.content_row_allprice,
+.content_row_signfor,
+.content_row_time {
+    width: 10%;
+    float: left;
+    text-align: center;
+}
+
+.head_title6,
+.content_row_time {
+    width: 20%;
+}
+
+.myorder_content_row {
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.content_row_order,
+.content_row_price,
+.content_row_num,
+.content_row_allprice,
+.content_row_signfor,
+.content_row_time {
+    height: 100px;
+    line-height: 100px;
+}
+
+.none_p {
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: white;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+
+.content_row_order div {
+    float: left;
+}
+
+.row_order_img img {
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.row_order_name {
+    text-indent: 0.5em;
+    width: 350px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.content_row_allprice button {
+    border: none;
+    background-color: rgba(221, 188, 116, 0.5);
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.myorder_content_row_a {
+    color: black;
+}
+
+.myorder_content_row:hover {
+    box-shadow: 0 0 3px black;
+}
+
+
+.paging {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+
+}
+
+.paging a {
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+.page {
+    margin-left: 10px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 0 2px black;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagenum {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.pagenum span {
+    font-weight: bold;
+}
+
+.headtitle{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 1em;
+    font-size: 23px;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    background-color: white;
+}

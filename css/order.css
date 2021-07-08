@@ -1,0 +1,105 @@
+.clear{
+    clear: both;
+}
+.order{
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.order_address{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.address_title,.product_title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.order_detail{
+    border-top: 1px dashed black;
+    padding-top: 15px;
+}
+
+.content_title{
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+
+.content_detail{
+    margin-top: 10px;
+    width: 100%;
+    float: left;
+    height: 50px;
+    background-color: white;
+    line-height:50px ;
+    border-top: 1px dotted black;
+    border-bottom:  1px dotted black;
+}
+
+.content_title_text{
+    width: 25%;
+    float: left;
+    
+}
+
+.content_detail_text{
+    text-align: center;
+    width: 25%;
+    float: left;
+}
+
+.detail_img{
+    margin-left: 50px;
+    float: left;
+}
+.detail_name{
+    width: 180px;
+    margin-left: 20px;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.sub_btn{
+    margin-top: 30px;
+    width: 100%;
+    height: 70px;
+    background-color: #d3d3d3;
+}
+.allprice{
+    height: 70px;
+    line-height: 70px;
+    float: left;
+    margin-left: 2em;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.allprice_title{
+    color: red;
+}
+.sub_btn button{
+    float: right;
+    cursor: pointer;
+    background-color: black;
+	border: none;
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+    width: 200px;
+    height: 70px;
+}
+.order_recipients{
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+}
+.order_tel{
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+}

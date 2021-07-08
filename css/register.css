@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	outline: none;
+}
+body{
+	background-color: #021e35;
+}
+.clear {
+	clear: both;
+}
+#all{
+	background-image: url(../img/backg.png);
+	background-repeat: no-repeat;
+	background-size: 1200px 600px;
+	background-position:0 70px;
+	height: 670px;
+}
+/* 注册表单 */
+form {
+	width: 525px;
+	/* height: 600px; */
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+/* 表单内包住所有内容的div */
+.input_div {
+	border: 2px solid rgba(0,0,0,0.0);
+	box-shadow: 0px 0px 20px rgba(62, 179, 214, 0.6);
+	border-radius: 20px;
+	width: 525px;
+	height: 600px;
+	background-color: rgba(235, 235, 235, 0.8);
+
+}
+
+/* 表单左侧文字div */
+.left_div {
+	text-align: right;
+	float: left;
+	width: 5em;
+	margin-right: 1em;
+}
+
+/* 文本框和密码框 */
+input[type=file]{
+	background-color: rgb(255, 255, 255);
+}
+input[type=file],
+input[type=text],
+input[type=password] {
+	width: 300px;
+	height: 30px;
+	text-indent: 1em;
+	border: 2px solid rgba(148, 203, 245, 1.0);
+	border-radius: 10px;
+}
+/* 单选按钮 */
+input[type=radio] {
+	width: 20px;
+	height: 20px;
+	margin-right: 3em;
+	float: left;
+}
+/* 日期 */
+input[type=date] {
+	width: 11.5em;
+	height: 30px;
+	text-indent: 1em;
+	border-radius: 15px;
+	border: 2px solid rgba(148, 203, 245, 1.0);
+}
+/* 提交按钮 */
+input[type=submit] {
+	width: 400px;
+	height: 45px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	font-size: 19px;
+	font-weight: bolder;
+	border: none;
+	background-color: rgba(0,0,0);
+	color: white ;
+	border-radius: 15px;
+}
+input[type=submit]:hover{
+	color: rgb(255, 215, 0);
+}
+/* 单选按钮'男/女'文字 */
+.radio_text {
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	margin-right: 0.5em;
+}
+/* 每一行信息的div块 */
+.content_div {
+	width: 80%;
+	margin: 0 auto;
+}
+/* 第一行信息div */
+.content0 {
+	margin-top: 70px;
+	height: 30px;
+	line-height: 30px;
+}
+/* 第2,3,4,5,6行信息 */
+.content1,
+.content2,
+.content3,
+.content4,
+.content5 {
+	margin-top: 55px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.content4 {
+	height: 20px;
+	line-height: 20px;
+}
+
+.content5 {
+	margin-top: 40px;
+}

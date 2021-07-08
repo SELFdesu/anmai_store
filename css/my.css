@@ -1,0 +1,416 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #000000;
+}
+
+body {
+	background-color: #ebebeb;
+}
+
+/* 左侧个人信息开始 */
+#status_bar {
+	margin-top: 15px;
+	width: 70%;
+	height: 150px;
+	float: left;
+}
+
+/* 左侧登录区开始 */
+.sta_left {
+	border-radius: 15px;
+	background-color: white;
+	float: left;
+	position: relative;
+	width: 260px;
+	height: 100%;
+	margin-right: 10px;
+}
+/* 登录logo */
+.sta_left img {
+	width: 100px;
+	height: 100px;
+	margin-left: 30px;
+	margin-top: 25px;
+	border-radius: 50%;
+	border: 3px solid rgba(0, 0, 0, 0.2);
+}
+/* 登录提示文字 */
+.sta_left p {
+	position: absolute;
+	right: 15px;
+	top: 40px;
+	width: 6em;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.sta_left a {
+	font-weight: 600;
+	color: #000000;
+}
+
+.sta_left a:hover {
+	color: #f2a52e;
+}
+
+/* 左侧登陆区结束 */
+
+/* 右侧商品信息开始 */
+.sta_right {
+	float: left;
+	background-color: #ffffff;
+	height: 150px;
+	width: 570px;
+	border-radius: 15px;
+}
+/* 内层div */
+.sta_right>div {
+	margin-left: 11.6px;
+	margin-top: 25px;
+	float: left;
+	width: 125px;
+	height: 100px;
+}
+/* 文字图标div */
+.payment div,
+.deliver div,
+.receiving div,
+.evaluate div,
+.refund div {
+	margin-top: 5px;
+	font-size: 50px;
+	text-align: center;
+}
+
+/* 帮助右上角数字定位 */
+.payment,
+.deliver,
+.receiving,
+.evaluate,
+.refund {
+	position: relative;
+}
+/* 内层文字p标签 */
+.sta_right p {
+	font-size: 16px;
+	margin-top: 5px;
+	text-align: center;
+}
+/* 鼠标浮动样式 */
+.payment:hover p,
+.deliver:hover p,
+.receiving:hover p,
+.evaluate:hover p,
+.refund:hover p {
+	color: #f2a52e;
+	font-weight: 600;
+}
+/* 右上角数字样式 */
+#payNum,#delNum,#receNum,#evaNum,#reNum{
+	position: absolute;
+	right: 0;
+	font-size: 15px;
+	color: white;
+	background-image: linear-gradient(#E65C5C 0%,#ff8277 50%,#e6847c 85%,#e6bab6 100%);
+	width: 1.6em;
+	height: 1.6em;
+	line-height: 1.6em;
+	border-radius: 0.8em;
+}
+
+/* 左侧个人信息结束 */
+
+/* 右侧日历开始 */
+#calendar {
+	border-radius: 15px;
+	margin-top: 15px;
+	float: right;
+	width: 29%;
+	height: 445px;
+	background-color: white;
+}
+/* 日历标题 */
+.calTitle {
+	border-radius: 15px 15px 0 0;
+	color: white;
+	width: 100%;
+	height: 13%;
+	line-height: 57.85px;
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* 日期区 */
+#allDate {
+	height: 87%;
+	border: 2px solid rgba(0, 0, 0, 0.3);
+	border-top: none;
+	border-radius: 0 0 15px 15px;
+}
+/* 星期区 */
+.week {
+	width: 100%;
+	height: 30%;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+/* 星期区显示周几的p标签 */
+#weekInner {
+	color: #E65C5C;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 116.15px;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+/* 星期下方的日期区 */
+.date {
+	width: 100%;
+	height: 70%;
+}
+/* 显示天数的div */
+#day {
+	color: #99D5EB;
+	padding-top: 35px;
+	width: 100%;
+	height: 40%;
+	font-size: 80px;
+	text-align: center;
+}
+/* 显示年月的div */
+#year {
+	width: 100%;
+	height: 60%;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 0.3em;
+	border-radius: 0 0 15px 15px;
+}
+/* 右侧日历结束 */
+
+/* 物流区开始 */
+#receiving_area {
+	border-radius: 15px;
+	float: left;
+	margin-top: 10px;
+	width: 70%;
+}
+/* 物流区标题 */
+#recTitle {
+	border-radius: 15px 15px 0 0;
+	background-color: #ffffff;
+	width: 100%;
+	height: 45px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+/* 文字图标 */
+#recTitle i {
+	float: left;
+	margin-left: 15px;
+	font-size: 45px;
+}
+/* 文字图标右侧文字 */
+#recTitle p {
+	font-size: 20px;
+	font-weight: bolder;
+	line-height: 45px;
+	margin-left: 10px;
+	float: left;
+}
+/* 物流内容区 */
+.recContent {
+	background-color: #ffffff;
+	width: 100%;
+	border-radius:0 0 15px 15px;
+}
+/* 无物流信息提示文字 */
+.recContent p {
+	width: 7em;
+	line-height: 144px;
+	margin: 0 auto;
+}
+.recContent_title{
+	width: 100%;
+	float: left;
+}
+.recContent_title1,.recContent_title2{
+	float: left;
+	width: 40%;
+	text-align: center;
+	font-weight: bold;
+	line-height: 30px;
+	height: 30px;
+}
+.recContent_title2{
+	width: 60%;
+}
+.recContent_row{
+	width: 100%;
+	float: left;
+	height: 70px;
+	margin-bottom: 5px;
+	background-color: rgba(237, 240, 245, 0.5);
+	border-radius: 15px;
+	cursor: pointer;
+
+}
+.recContent_row:hover{
+	box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+}
+.recContent_row_left,.recContent_row_right{
+	float: left;
+}
+.recContent_row_left{
+	width: 40%;
+}
+.recContent_row_title,.recContent_row_photo{
+	float: left;
+	line-height: 70px;
+	height: 70px;
+	
+	
+}
+.recContent_row_title{
+	width: 15em;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.recContent_row_left img{
+	width: 70px;
+	height: 70px;
+	border-radius: 15px;
+	margin-left: 1em;
+}
+.recContent_row_right{
+	width: 60%;
+	text-align: center;
+	height: 70px;
+	line-height: 70px;
+}
+/* 物流区结束 */
+
+/* 购物车收藏夹情况展示区开始 */
+.cart_fa_show{
+	margin-top: 10px;
+	border-radius: 15px;
+	width: 70%;
+	float: left;
+}
+/* 购物车收藏夹情况布局 */
+.show_left_div,.show_right_div{
+	background-color: #ffffff;
+	border-radius: 15px;
+	float: left;
+	width: 49%;
+}
+/* 购物车情况布局 */
+.show_left_div{
+	margin-right: 16.8px;
+}
+/* 购物车收藏夹情况标题 */
+.show_left_title,.show_right_title{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.show_left_div a:hover,.show_right_div a:hover{
+	color: orange;
+}
+/* 购物车收藏夹情况文字图标 */
+.show_left_title>i,.show_right_title>i{
+	margin-left: 1em;
+}
+/* 购物车收藏夹情况内容 */
+.show_left_content,.show_right_content{
+	width: 100%;
+	padding-bottom: 10px;
+}
+/* 购物车收藏夹情况无内容显示文字 */
+.show_left_content p,.show_right_content p{
+	width: 100%;
+	height: 130px;
+	text-align: center;
+	line-height: 130px;
+}
+/* 购物车收藏夹情况展示区结束 */
+
+.my_cart_row{
+	width: 400px;
+	margin-left: 6px;
+	height: 60px;
+	float: left;
+	margin-top: 5px;
+	background-color: rgba(237, 240, 245, 0.5);
+	border-radius: 15px;
+}
+.my_cart{
+	float: left;
+}
+.my_cart_photo{
+	margin-left: 15px;
+}
+.my_cart_photo img{
+	margin-top: 5px;
+	border-radius: 15px;
+}
+.my_cart_name{
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 60px;
+	margin-left: 1em;
+	width: 22em;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.my_cart_row:hover{
+	box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+
+.paging{
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 150px;
+
+}
+.paging a{
+	color: #000000!important;
+	font-weight: bold;
+}
+.page{
+	margin-left: 10px;
+	float: left;
+	width: 20px;
+	height: 20px;
+	box-shadow: 0 0 2px black;
+	text-align: center;
+	line-height: 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+.pagenum{
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	margin-left: 10px;
+	font-size: 14px;
+}
+.pagenum span{
+	font-weight: bold;
+}

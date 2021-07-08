@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+body{
+	background-color: #ebebeb;
+}
+
+/* 头标题 */
+#topHeader {
+	font-weight: bolder;
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 40px;
+}
+/* header后面的黑色背景 */
+#banerBackg {
+	position: absolute;
+	z-index: -999;
+	background-color: black;
+	width: 100%;
+	height: 40px;
+}
+/* header后面的黑色背景结尾 */
+
+
+/* 所有内容的div层 */
+#all {
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* 左侧登录图标 */
+#logo {
+	float: left;
+	margin-top: 4px;
+	margin-left: 50px;
+	width: 100px;
+	height: 36px;
+}
+.logo_img{
+	display: block;
+	border-radius: 16px;
+	float: left;
+	position: absolute;
+	z-index: 10;
+}
+
+#logout{
+	float: left;
+	color: goldenrod;
+	font-size: 13px;
+	line-height: 34px;
+	text-indent: 0.5em;
+	position: absolute;
+	left: 3.6em;
+	z-index: 6;
+}
+#logout:hover{
+	color: orangered;
+}
+#logo:hover #logout{
+	left: 6.5em;
+	transition: left 0.2s;
+}
+
+/* 导航栏 */
+.headerNav {
+	float: right;
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* 导航栏超链接 */
+.headerNav a {
+	color: snow;
+	flex-grow: 1;
+	line-height: 40px;
+	text-align: center;
+	font-size: 13px;
+}
+
+/* 导航栏超链接鼠标悬浮 */
+#topHeader .headerNav a:hover {
+	cursor: pointer;
+	color: rgb(255, 215, 0);
+	background-color: rgba(255, 255, 255, 0.1);
+}

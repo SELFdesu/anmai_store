@@ -1,0 +1,55 @@
+*{
+	outline: none;
+}
+/* 搜索框开始 */
+#search{
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 80px;
+}
+/* 左侧logo */
+#leftLogo{
+    background:url('../img/logo.png') no-repeat;
+    background-size: 75px;
+    background-position: center;
+    position: absolute;
+    left: 50px;
+    width: 200px;
+    height: 100%;
+}
+/* 搜索栏表单 */
+#search form{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -15px;
+    width: 470px;
+    height: 30px;
+}
+/* 搜索栏文本框 */
+#search form input[type='text']{
+	text-indent: 1em;
+	border-radius: 15px;
+    width: 400px;
+    height: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    line-height: 30px;
+}
+/* 搜索栏提交按钮 */
+#search form input[type='submit']{
+	cursor: pointer;
+	border-radius: 0 15px 15px 0;
+	border: none;
+	font-weight: bolder;
+    position: absolute;
+    right: 20px;
+    width: 60px;
+    height: 34px;
+    color: white;
+    background-color: black;
+}
+#search form input[type='submit']:hover{
+	color: rgb(255, 215, 0);
+}
+/* 搜索框结束 */

@@ -1,0 +1,86 @@
+/* 包住轮播图的div */
+#carLInner {
+	width: 3550px;
+	height: 450px;
+	position: absolute;
+	left: 0;
+	transition: 0.3s;
+}
+/* 轮播图的图片 */
+#carLInner img {
+	float: left;
+	width:710px;
+	height: 450px;
+}
+
+/* 轮播图两侧按钮开始 */
+.leftShift,
+.rightShift {
+	background-color: rgba(100, 100, 100, 0.5);
+	position: absolute;
+	top: 200px;
+	z-index: 888;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+
+.leftShift {
+	left: -25px;
+}
+
+.rightShift {
+	right: -25px;
+}
+
+.leftShift:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.rightShift:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.leftShift i,
+.rightShift i {
+	color: rgb(255, 255, 255);
+	text-align: center;
+	line-height: 50px;
+	font-weight: 600;
+	font-size: 30px;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.leftShift i {
+	position: relative;
+	left: 10px;
+}
+
+.rightShift i {
+	position: relative;
+	right: 10px;
+}
+/* 轮播图两侧按钮结束 */
+
+/* 轮播图左下角圆圈 */
+#allButton{
+	width: 250px;
+	height: 20px;
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+.button{
+	width: 15px;
+	height: 15px;
+	border-radius: 20px;
+	background-color: rgba(255, 255, 255, 1);
+	position: relative;
+	z-index: 889;
+	float: left;
+	margin-left: 10px;
+	cursor: pointer;
+	
+}

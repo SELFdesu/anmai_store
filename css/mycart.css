@@ -1,0 +1,209 @@
+body{
+    background-color: #ebebeb;
+}
+
+/* 内容部分 */
+#content{
+    width: 100%;
+	margin-top: 15px;
+}
+/* 标题（我的购物车） */
+.conTitle{
+	font-weight: bolder;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+/* 标题（我的购物车）文字图标 */
+.conTitle i{
+    margin-left: 20px;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    margin-right: 0.5em;
+    color: #eb4200d3;
+}
+/* 标题（我的购物车）文字 */
+.conTitle p{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    line-height: 50px;
+}
+/* 商品栏和结算栏 */
+.conInner{
+    width: 100%;
+}
+/* 商品栏 */
+.product{
+    margin-top: 5px;
+    width: 100%;
+}
+/* 商品栏标题开始 */
+.product_title{
+    background-color: #ffffff;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 5px;
+}
+.product_title div{
+    float: left;
+}
+/* 全选 */
+.proT1{
+    margin-left: 10px;
+}
+.proT1 span{
+	font-weight: bolder;
+}
+/* 商品信息 */
+.proT2{
+    margin-left: 20px;
+    width: 400px;
+}
+
+/* 单价/数量/金额/操作 */
+.proT3,.proT4,.proT5,.proT6{
+    text-align: center;
+    width: 180px;
+}
+/* 商品栏标题结束 */
+
+/* 商品内容区开始 */
+.product_content{
+    width: 100%;
+   
+}
+
+.content_row{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    margin-top: 10px;
+    background-color: white;
+}
+.content_row_line{
+    float: left;
+    height: 70px;
+}
+.row_line0{
+    width: 70px;
+    margin-left: 10px;
+}
+.row_line1{
+    /* margin-left: 80px; */
+    width: 400px;
+}
+.row_line2,.row_line3,.row_line4,.row_line5{
+    /* margin-left: 120px; */
+    width: 180px;
+    text-align: center;
+}
+.row_line5 a,.row_line5 a:visited{
+    color: black;
+    font-weight: bold;
+}
+.row_line5 a:hover{
+    color: orangered;
+}
+.row_line_photo,.row_line_text{
+    float: left;
+}
+.row_line_text{
+    text-indent: 10px;
+}
+/* 无商品时显示文字 */
+.product_content p{
+	 height: 200px;
+	 line-height: 200px;
+	 text-align: center;
+}
+/* 商品内容区结束 */
+
+/* 结算栏 */
+.toolbar{
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 70px;
+}
+/* 删除框 和全选框*/
+.check_all,.delete{
+	font-weight: bolder;
+    float: left;
+    margin-left: 10px;
+    width: 100px;
+    height: 100%;
+    line-height: 70px;
+	cursor: pointer;
+}
+.delete button{
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 16px;
+    width: 2em;
+    border:none;
+}
+.delete button:hover{
+    color: white;
+}
+.delete button:active{
+    color: #ff6822;
+}
+/* 已选商品数 */
+.check_pro_num{
+    float: left;
+    width: 200px;
+    height: 100%;
+    line-height: 70px;
+    margin-left: 370px;
+}
+
+.check_pro_num p,.check_pro_num span{
+    float: left;
+}
+.check_pro_num span{
+    font-size: 21px;
+    font-weight: bolder;
+    color: #e65c5c;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+/* 总价 */
+.aggregate_amount{
+    margin-left: 10px;
+    float: left;
+    width: 200px;
+    height: 100%;
+}
+.aggregate_amount p,.aggregate_amount span{
+    float: left;
+    line-height: 70px;
+}
+.aggregate_amount span{
+    font-size: 21px;
+    font-weight: bolder;
+    color: #e65c5c;
+    margin-right: 0.5em;
+}
+
+/* 结算 */
+.settle_accounts{
+    float: right;
+}
+.settle_accounts input[type='submit']{
+    cursor: pointer;
+    background-color: black;
+	border: none;
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+    width: 200px;
+    height: 70px;
+}
+

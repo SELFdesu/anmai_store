@@ -1,0 +1,31 @@
+.paging{
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 150px;
+}
+.paging a{
+	color: #000000!important;
+	font-weight: bold;
+}
+.page{
+	margin-left: 10px;
+	float: left;
+	width: 30px;
+	height: 30px;
+	box-shadow: 0 0 2px black;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.pagenum{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 10px;
+}
+.pagenum span{
+	font-weight: bold;
+}
+

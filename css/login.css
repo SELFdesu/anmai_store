@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+#all{
+	height: 670px;
+	background-image: url(../img/backg.png);
+	background-repeat: no-repeat;
+	background-size: 1200px 600px;
+	background-position: 0 70px;
+}
+
+body {
+	background-color: #021e35;
+
+}
+/* 登录外层div */
+.login_div {
+	background-color: rgba(235, 235, 235, 0.8);
+	border-radius: 30px;
+	width: 300px;
+	height: 400px;
+	margin-top: 130px;
+	margin-left: 800px;
+	box-shadow: 0 0 15px rgba(90, 233, 255, 0.5);
+	
+}
+/* 登录界面上方文字 */
+.login_div>p {
+	width: 100%;
+	text-align: center;
+	height: 80px;
+	line-height: 110px;
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 25px;
+}
+/* 登录表单 */
+form {
+	width: 100%;
+	height: 300px;
+	text-align: center;
+}
+
+/* 用户框和密码框 */
+#user,
+#passwd {
+	width: 220px;
+	height: 35px;
+	border: 2px solid #e6e6e6;
+	border-radius: 10px;
+	margin-top: 30px;
+}
+/* 用户框 */
+#user {
+	background: url(../img/user.png) no-repeat left;
+	background-size: 20px;
+	background-position: 8px;
+	text-indent: 35px;
+}
+/* 密码框 */
+#passwd {
+	background: url(../img/passwd.png) no-repeat left;
+	background-size: 20px;
+	background-position: 8px;
+	text-indent: 35px;
+}
+/* 提交按钮 */
+#sub {
+	width: 230px;
+	height: 45px;
+	border: none;
+	border-radius: 30px;
+	background-color: rgba(0, 0, 0);
+	color: white;
+	margin-top: 30px;
+	font-size: 20px;
+	font-weight: 600;
+	cursor: pointer;
+}
+#sub:hover{
+	color: rgb(255, 215, 0);
+}
+/* 注册、找回密码文字外层div */
+#bottomText {
+	width: 10em;
+	margin: 0 auto;
+}
+/* 注册、找回密码文字外层div */
+.text01,
+.text02 {
+	margin-top: 30px;
+	width: 4em;
+	float: left;
+}
+
+.text02 {
+	margin-left: 2em;
+}
+.text03{
+	/* margin-top: 10px; */
+	color: crimson;
+}
+/* 注册、找回密码文字外层a标签 */
+.text_left,.text_right {
+	color: #3b302d;
+	text-decoration: none;
+}
+.text_left:hover,.text_right:hover{
+	color: rgba(255, 215, 0,0.8);
+	text-shadow:0px 0px 10px rgba(30, 29, 29, 0.4);
+}
+#user:focus,#passwd:focus{
+	box-shadow: 0px 0px 5px #737373;
+}

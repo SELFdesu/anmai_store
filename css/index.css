@@ -1,0 +1,232 @@
+body {
+	background-color: #ebebeb;
+}
+
+/* banner */
+#banner {
+	width: 100%;
+	height: 100px;
+	background-image: url(../img/banner.png);
+	background-size: 1200px;
+}
+
+/* 搜索栏大div块（text和sub）*/
+#search {
+	position: relative;
+	margin-top: 15px;
+	height: 45px;
+
+}
+/* 搜索框左侧logo */
+#searchImg{
+	position: absolute;
+	top: -5px;
+	left: 50px;
+	width: 60px;
+	height: 55px;
+	background: url(../img/logo.png) no-repeat;
+	background-size: 60px 55px;
+}
+
+/* 搜索栏form表单 */
+#search form {
+	position: relative;
+	margin: 0 auto;
+	width: 750px;
+	height: 40px;
+}
+
+/* 文本搜索框 */
+.txt {
+	width: 750px;
+	height: 40px;
+	line-height: 50px;
+	border-radius: 20px;
+	text-indent: 1.5em;
+	outline: none;
+	border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+/* 提交 */
+.sub {
+	font-weight: bolder;
+	background-color: #000000;
+	color: #F0F8FF;
+	position: absolute;
+	right: -24px;
+	top: 0px;
+	width: 100px;
+	height: 44px;
+	border: none;
+	border-top-right-radius: 18px;
+	border-bottom-right-radius: 18px;
+	outline: none;
+}
+/* 搜索按钮悬样式 */
+.sub:hover {
+	cursor: pointer;
+	color: rgb(255, 215, 0);
+}
+
+
+/* 展示区 */
+.section_show {
+	margin-top: 15px;
+	width: 100%;
+	height: 450px;
+}
+
+/* 展示区左侧 */
+#seLeft {
+	position: relative;
+	width: 15%;
+	height: 100%;
+	float: left;
+}
+
+/* 展示区左侧ul */
+.leftNav {
+	height: 100%;
+	border-radius: 5px;
+}
+.leftNav a:visited{
+	color: black;
+
+
+}
+/* 展示区左侧li */
+.leftNav .Lli {
+	background-color: snow;
+	line-height: 40px;
+	text-align: center;
+	width: 100%;
+	height: 41px;
+	font-size: 16px;
+	cursor: pointer;
+	color: black;
+	border-radius: 0 13px 15px 0 ;
+	margin-top: 4px;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.5) inset;
+
+}
+.Llifirst{
+	margin-top: 0px !important;
+}
+
+/* 展示区左侧li鼠标浮动样式 */
+.leftNav .Lli:hover {
+	background-color: snow;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+/* 展示区右侧轮播 */
+#seRight {
+	width: 85%;
+	height: 100%;
+	float: left;
+}
+
+/* 右侧轮播区 */
+#carousel {
+	width: 100%;
+	height: 100%;
+}
+
+/* 右侧轮播的左侧大轮播 */
+.carLeft {
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	position: relative;
+	margin-left: 10px;
+	width: 710px;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	border-radius: 15px;
+}
+
+/* 右侧轮播的右侧小轮播 */
+.carRight {
+	width: 300px;
+	height: 100%;
+	float: left;
+}
+
+/* 右侧轮播的右侧两个小轮播 */
+.crTop,
+.crButtom {
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	margin-left: 10px;
+}
+
+/* 小轮播上侧轮播 */
+.crTop {
+	width: 290px;
+	height: 220px;
+	background-color: #99d5eb;
+	border-radius: 15px;
+}
+
+.crTop img,
+.crButtom img {
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+}
+
+/* 小轮播下侧轮播 */
+.crButtom {
+	border-radius: 15px;
+	margin-top: 10px;
+	width: 290px;
+	height: 220px;
+	background-color: #e2d1eb;
+}
+
+/* 活动展示区 */
+#activity {
+	box-shadow: 0 0 3px  rgba(0,0,0,0.6);
+	margin-top: 15px;
+	width: 100%;
+	height: 200px;
+	border-radius: 15px;
+}
+
+#activity img {
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+}
+
+
+.paging{
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 150px;
+
+}
+.paging a{
+	color: #000000!important;
+	font-weight: bold;
+}
+.page{
+	margin-left: 10px;
+	float: left;
+	width: 30px;
+	height: 30px;
+	box-shadow: 0 0 2px black;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.pagenum{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 10px;
+}
+.pagenum span{
+	font-weight: bold;
+}
+
